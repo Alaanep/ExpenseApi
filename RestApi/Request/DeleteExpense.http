@@ -1,0 +1,4 @@
+@id=55c16ad7-b715-4e5f-95c6-a6f39b84c5ec
+
+DELETE  http://localhost:5161/expenses/{{id}}
+Content-Type: application/json

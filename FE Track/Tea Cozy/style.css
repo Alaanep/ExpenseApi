@@ -1,0 +1,205 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+*  {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+/* 2. Typography Styles
+======================================== */
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: seashell;
+}
+
+img {
+    width: 100%;
+  }
+
+ /* 3. Structure Styles
+======================================== */
+
+.container {
+    margin: 10 auto;
+    max-width: 1200px;
+    padding:0 15px;
+
+}
+
+.container:before, .container:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* 4. Modules Styles
+======================================== */
+
+/* Site Navigation */
+
+.site-navigation {
+    padding: 10px;
+    
+}
+
+header {
+    height: 69px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+
+}
+
+.site-header-left {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.site-header-left li {
+    line-height: 0;
+}
+
+.site-header-right {
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.site-header-right li,
+.footer-right li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.site-header-left img {
+    height: 50px;
+}
+
+/* Site Footer */
+
+.footer {
+    text-align: left;
+}
+
+.footer-navigation {
+    padding: 20px;
+    max-width: 1280px;
+}
+
+.photo-hero .container {
+    margin-top: 70px;
+    height: 700px;
+    display: flex;
+    background-image: url("images/img-mission-background.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.photo-hero-text {
+    background-color: black;
+    width: 100%;
+}
+
+.teaofmonth {
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.photo-grid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-box {
+    width: 300px;
+    height: 200px;
+    margin: 30px 4px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.locations {
+    height: 500px;
+    background-size: cover;
+    background-image: url("images/img-locations-background.jpg");
+    text-align: center;
+}
+
+.locations h2 {
+    margin: 40px auto 15px auto;
+}
+
+.locations-grid {
+    display: inline-flex;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 0 20px 0 20px;
+}
+
+.contact {
+    height: 200px;
+    text-align: center;
+}
+
+.footer-navigation ul {
+    padding: 0;
+}

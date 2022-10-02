@@ -1,0 +1,4 @@
+@id=7e211575-65cc-47f2-93ba-359f98a7b2a1
+
+DELETE  http://localhost:5087/breakfasts/{{id}}
+Content-Type: application/json

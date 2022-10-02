@@ -1,0 +1,12 @@
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/bin/Debug/net6.0/RestApi.Contracts.deps.json
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/bin/Debug/net6.0/RestApi.Contracts.dll
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/bin/Debug/net6.0/RestApi.Contracts.pdb
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/RestApi.Contracts.csproj.AssemblyReference.cache
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/RestApi.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/RestApi.Contracts.AssemblyInfoInputs.cache
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/RestApi.Contracts.AssemblyInfo.cs
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/RestApi.Contracts.csproj.CoreCompileInputs.cache
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/RestApi.Contracts.dll
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/refint/RestApi.Contracts.dll
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/RestApi.Contracts.pdb
+/Users/alarlaanep/Projects/RestApi/RestApi.Contracts/obj/Debug/net6.0/ref/RestApi.Contracts.dll

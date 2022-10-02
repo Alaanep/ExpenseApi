@@ -1,0 +1,9 @@
+POST http://localhost:5161/expenses
+Content-Type: application/json
+
+{
+    "description": "Alexela",
+    "category": "Transport",
+    "amount": 40,
+    "date": "2022-04-06T12:00:00"
+}

@@ -1,0 +1,149 @@
+/* Universal styles */
+
+html{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: lightsalmon;
+}
+.bar{
+    padding-top: 1rem;
+    background-color: teal;
+    color: salmon;
+    width: 100%;
+    display: block;
+}
+
+/* header, footer section */
+.bar nav ul {
+    display: flex;
+    padding-inline-start: 2.5rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.bar nav ul li{
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+    color: salmon;
+    cursor: pointer;
+}
+
+.bar nav ul li a {
+    color: salmon;
+}
+
+@media only screen and (max-width: 640px){
+    .bar nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bar nav ul li a {
+        text-decoration: underline;
+        text-decoration-color: purple;
+    }
+
+    .bar nav ul li a:active{
+        text-decoration-color: red;
+    }
+}
+
+/* intro Section */
+.intro{
+    background-image: url("../images/sporlab-XiZ7pRvCzro-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 1rem;
+    height: 30rem;
+}
+
+.intro .content h1 {
+    color: Coral;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+}
+
+/* summary Section */
+
+.summary .content h2 {
+    color: yellow;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.summary .content p{
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* images Section */
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.images img {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .images {
+        flex-direction: column;
+    }
+
+    .images img {
+        width: 100%;
+    }
+}
+
+/* Testimonials section */
+
+.testimonial{
+    background-color: teal;
+    color: yellow;
+    padding: 2rem;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+}
+
+.testimonial blockquote{
+    font-size: 3.1rem;
+    padding-bottom: 2rem;
+}
+
+.meetup-section{
+    color: yellow;
+}
+
+.meetup-section h2{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.meetup-section img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.meetup-section h3{
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}

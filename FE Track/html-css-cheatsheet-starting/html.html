@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-link"><a href="index.html">Home</a></li>
+            <li class="nav-link"><a href="html.html">HTML</a></li>
+            <li class="nav-link"><a href="#">CSS</a></li>
+            <li class="nav-link"><a href="#">JS</a></li>
+            <li class="nav-link"><a href="#">GIT</a></li>
+            <li class="nav-link"><a href="designsystem.html">My Design System</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>HTML Elements reference</h1>
+        <p>This page lists HTML elements, which are created using tags.</p>
+    </header>
+    <main>
+        <section>
+            <h1>Main Root</h1>
+            <p></p>
+            <table>
+                <thead>
+                    <tr><th>Element</th><th>Description</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <code>&lt;html&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;html&gt;</code></strong>
+                             element represents the root (top-level element) of an HTML document, 
+                             so it is also referred to as the <em>root element</em>. 
+                             All other elements must be descendants of this element.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1>Document metadata</h1>
+            <p>Metadata contains information about the page. This includes information about styles, scripts and data to help software (search engines, browsers, etc.) use and render the page. Metadata for styles and scripts may be defined in the page or link to another file that has the information.</p>
+            <table>
+                <thead>
+                    <tr><th>Element</th><th>Description</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <code>&lt;base&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;base&gt;</code></strong> element specifies the base URL to use for all relative URLs in a document. There can be only one <strong><code>&lt;base&gt;</code></strong> element in a document.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;head&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;head&gt;</code></strong> element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;link&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;link&gt;</code></strong> element specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;meta&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;meta&gt;</code></strong> element represents Metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;style&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;style&gt;</code></strong> element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the <code>&lt;style&gt;</code> element.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;title&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;title&gt;</code></strong> element defines the document's title that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1>Sectioning root</h1>
+            <table>
+                <thead>
+                    <tr><th>Element</th><th>Description</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <code>&lt;body&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;body&gt;</code></strong> element represents the content of an HTML document. There can be only one <code>&lt;body&gt;</code> element in a document.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section>
+            <h1>Content sectioning</h1>
+            <p>Content sectioning elements allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content.</p>
+            <table>
+                <thead>
+                    <tr><th>Element</th><th>Description</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <code>&lt;address&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;address&gt;</code></strong> element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;article&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;article&gt;</code></strong> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;aside&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;aside&gt;</code></strong> element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;footer&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;footer&gt;</code></strong> element represents a footer for its nearest ancestor sectioning content or sectioning root element. A <code>&lt;footer&gt;</code> typically contains information about the author of the section, copyright data or links to related documents.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;header&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;header&gt;</code></strong> element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;h1&gt;</code>
+                            <code>&lt;h2&gt;</code>
+                            <code>&lt;h3&gt;</code>
+                            <code>&lt;h4&gt;</code>
+                            <code>&lt;h5&gt;</code>
+                            <code>&lt;h6&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;h1&gt;</code></strong> to <strong><code>&lt;h6&gt;</code></strong> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;main&gt;</code>
+                            
+                        </td>
+                        <td>
+                            The <strong><code>&lt;main&gt;</code></strong> element represents the dominant content of the body of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;nav&gt;</code>
+                            
+                        </td>
+                        <td>
+                            The <strong><code>&lt;nav&gt;</code></strong> element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;section&gt;</code>
+                            
+                        </td>
+                        <td>
+                            The <strong><code>&lt;section&gt;</code></strong> element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1>Text Content</h1>
+            <p>Use HTML text content elements to organize blocks or sections of content placed between the opening <code>&lt;body&gt;</code> and closing <code>&lt;body&gt;</code> tags. Important for accessibility and SEO, these elements identify the purpose or structure of that content.</p>
+            <table>
+                <thead>
+                    <tr><th>Element</th><th>Description</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <code>&lt;blockquote&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;blockquote&gt;</code></strong> element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the cite element.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;dd&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;dd&gt;</code></strong> element provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;div&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;div&gt;</code></strong> element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;dl&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;dl&gt;</code></strong> element represents a description list. The element encloses a list of groups of terms (specified using the dt element) and descriptions (provided by dd elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;dt&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;dt&gt;</code></strong> element specifies a term in a description or definition list, and as such must be used inside a dl element. It is usually followed by a dd element; however, multiple <dt> elements in a row indicate several terms that are all defined by the immediate next dd element.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;figcaption&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;figcaption&gt;</code></strong> element represents a caption or legend describing the rest of the contents of its parent figure element.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;figure&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;figure&gt;</code></strong> element represents self-contained content, potentially with an optional caption, which is specified using the figcaption element. The figure, its caption, and its contents are referenced as a single unit.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;hr&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;hr&gt;</code></strong> element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;li&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;li&gt;</code></strong> element is used to represent an item in a list. It must be contained in a parent element: an ordered list (ol), an unordered list (ul), or a menu (menu). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;menu&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;menu&gt;</code></strong> element is a semantic alternative to ul. It represents an unordered list of items (represented by li elements), each of which represents a link or other command that the user can activate.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;ol&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;ol&gt;</code></strong> element represents an ordered list of items — typically rendered as a numbered list.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;p&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;p&gt;</code></strong> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;pre&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;pre&gt;</code></strong> element represents preformatted text which is to be presented exactly as written in the HTML file. The text is typically rendered using a non-proportional, or monospaced, font. Whitespace inside this element is displayed as written.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>&lt;ul&gt;</code>
+                        </td>
+                        <td>
+                            The <strong><code>&lt;ul&gt;</code></strong> element represents an unordered list of items, typically rendered as a bulleted list.
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
