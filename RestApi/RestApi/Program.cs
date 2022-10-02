@@ -1,16 +1,23 @@
 using RestApi.Services;
+using Microsoft.EntityFrameworkCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddDbContext<DataContext>(OptionsBuilderConfigurationExtensions=>OptionsBuilderConfigurationExtensions.UseNpgsql(builder.Configuration.GetConnectionString("default")));
 builder.Services.AddControllers();
-builder.Services.AddScoped<IExpenseService, ExpenseService>();
+builder.Services.AddScoped<IExpenseService,ExpenseService>();
+builder.Services.AddScoped<IIncomeService, IncomeService>();
+builder.Services.AddDbContext<DataContext>(OptionsBuilderConfigurationExtensions=>OptionsBuilderConfigurationExtensions.UseNpgsql(builder.Configuration.GetConnectionString("default")));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+using(var scope=((IApplicationBuilder)app).ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+//using(var context=scope.ServiceProvider.GetService<DataContext>()) context?.Database.EnsureCreated();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

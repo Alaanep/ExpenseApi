@@ -1,6 +1,6 @@
-@id=55c16ad7-b715-4e5f-95c6-a6f39b84c5ec
+@id=91c27cfe-3b9b-4ca8-9e71-25f93f1ab699
 
-PUT http://localhost:5161/expenses/{{id}}
+PUT http://localhost:5233/expenses/{{id}}
 Content-Type: application/json
 
 {
